@@ -41,11 +41,11 @@ describe('nuevaString', function() {
   });
 });
 
-describe('nuevoNum', function() {
-  it('Deberia ser un numero', function() {
-    expect(typeof nuevoNum).toBe('number');
+describe('nuevoNum', () => {
+    it('Deberia ser un numero', function () {
+      expect(typeof nuevoNum).toBe('number');
+    });
   });
-});
 
 describe('nuevoBool', function() {
   it('Deberia ser un booleano', function() {
